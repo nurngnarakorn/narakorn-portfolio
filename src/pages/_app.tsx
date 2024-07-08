@@ -7,6 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Script from "next/script";
+import NavBar from "../components/NavBar";
 
 const GTM_ID = "GTM-5Z5MDZKB";
 
@@ -45,6 +46,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           `,
         }}
       />
+      <NavBar />
       <Component {...pageProps} />
       <SpeedInsights />
     </>
