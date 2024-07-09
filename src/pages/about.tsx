@@ -11,14 +11,17 @@ export default function About() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>About Me</h1>
-        <p className={styles.description}>
-          I'm Narakorn Suwunpatung, a Senior Full Stack Developer with over nine
-          years of experience.
-        </p>
-        <p className={styles.description}>
-          I specialize in creating marketing technology solutions and managing
-          complex projects for high-profile clients.
-        </p>
+        <div className={styles.aboutContent}>
+          <p>
+            I'm Narakorn Suwunpatung, <br />
+            a Senior Full Stack Developer <br />
+            with over nine years of experience.
+          </p>
+          <p>
+            I specialize in creating marketing technology solutions <br />
+            and managing complex projects for high-profile clients.
+          </p>
+        </div>
       </main>
     </div>
   );

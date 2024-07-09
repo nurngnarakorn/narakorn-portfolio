@@ -1,9 +1,31 @@
 .navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #333;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem;
+  position: relative;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .navLink {
@@ -15,4 +37,44 @@
 
 .navLink:hover {
   text-decoration: underline;
+}
+
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.menuButton:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+  }
+
+  .showMenu {
+    display: flex;
+  }
+
+  .menuButton {
+    display: block;
+  }
+
+  .navLink {
+    margin: 1rem 0;
+    font-size: 1rem;
+  }
 }

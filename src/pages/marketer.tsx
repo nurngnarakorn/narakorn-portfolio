@@ -12,11 +12,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to My Marketing Portfolio</h1>
-
+        {/* 
         <p className={styles.description}>
           Hello, I am Narakorn Suwunpatung, a professional marketer. Discover
           how to earn money by partnering with me.
-        </p>
+        </p> */}
 
         <div className={styles.grid}>
           <a

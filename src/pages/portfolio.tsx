@@ -22,34 +22,64 @@ export default function Portfolio() {
               alt="cpbrandsite product list"
               className={styles.image}
             />
-            <h3>cpbrandsite : product list</h3>
-            <p>Project : Product List</p>
-            <a
-              href="https://member.cpbrandsite.com/product"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.link}
-            >
-              View Project
-            </a>
+            <div className={styles.projectDetails}>
+              <h3>2024 : Developed Product Review System</h3>
+              <p>
+                I have developed a comprehensive product review system that
+                enables members to write detailed reviews for various products.
+                The system includes the following features:
+              </p>
+              <ul>
+                <li>
+                  <strong>Rating System:</strong> Users can provide ratings for
+                  products on a predefined scale, helping to quantify their
+                  experience and satisfaction.
+                </li>
+                <li>
+                  <strong>Image Upload:</strong> Users have the ability to
+                  upload images along with their reviews, providing visual
+                  context and enhancing the credibility of their feedback.
+                </li>
+                <li>
+                  <strong>Detailed Reviews:</strong> Members can write extensive
+                  reviews, sharing their personal experiences, opinions, and any
+                  relevant information about the products.
+                </li>
+              </ul>
+              <p>
+                This system not only facilitates user engagement but also aids
+                potential buyers in making informed decisions based on authentic
+                user feedback.
+              </p>
+              <a
+                href="https://member.cpbrandsite.com/product"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                View Project
+              </a>
+            </div>
           </div>
-          <div id="product-review" className={styles.projectItem}>
+          {/* <div id="product-review" className={styles.projectItem}>
             <img
               src="/images/cpbrandsite_product_review.png"
               alt="cpbrandsite product review"
               className={styles.image}
             />
-            <h3>cpbrandsite : product review</h3>
-            <p>Project : Product Review</p>
-            <a
-              href="https://member.cpbrandsite.com/product"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.link}
-            >
-              View Project
-            </a>
-          </div>
+            <div className={styles.projectDetails}>
+              <h3>cpbrandsite : Product Review</h3>
+              <p>Project: Product Review</p>
+              <a
+                href="https://member.cpbrandsite.com/product"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                View Project
+              </a>
+            </div>
+          </div> */}
         </div>
       </main>
     </div>
