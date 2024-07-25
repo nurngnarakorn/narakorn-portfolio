@@ -16,7 +16,7 @@ export default function Home() {
           Hello, I am Narakorn Suwunpatung, a Full Stack Developer.
         </p>
 
-        <section className={styles.information}>
+        <section className={styles.description}>
           <script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2877713589134666"
