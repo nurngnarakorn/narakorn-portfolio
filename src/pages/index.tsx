@@ -16,6 +16,15 @@ export default function Home() {
           Hello, I am Narakorn Suwunpatung, a Full Stack Developer.
         </p>
 
+        <section className={styles.information}>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2877713589134666"
+            crossOrigin="anonymous"
+            id="adsense01"
+          ></script>
+        </section>
+
         <div className={styles.grid}>
           <a href="/about" className={styles.card}>
             <h3>About Me &rarr;</h3>
