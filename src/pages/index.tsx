@@ -1,6 +1,7 @@
 import "swiper/css";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -17,12 +18,31 @@ export default function Home() {
         </p>
 
         <section className={styles.description}>
-          <script
+          <Script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2877713589134666"
             crossOrigin="anonymous"
             id="adsense01"
-          ></script>
+          />
+          <ins
+            className="adsbygoogle"
+            style={{
+              display: "inline-block",
+              width: "728px",
+              height: "90px",
+            }}
+            data-ad-client="ca-pub-2877713589134666"
+            data-ad-slot="8690584907"
+          ></ins>
+          <Script
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    `,
+            }}
+            id="adsense02"
+          />
         </section>
 
         <div className={styles.grid}>
